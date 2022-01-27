@@ -1,0 +1,158 @@
+/* custom----------------------------------------------------- */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family:  Helvetica, sans-serif, Arial;
+  box-sizing: border-box;
+  }
+  
+  body{
+  
+      background-color: #121212;
+      height: 200vh;
+      color: #ffffff;
+      /* overflow-x: hidden; */
+      scroll-behavior: smooth;
+      position: relative;
+      
+      
+  }
+  
+  
+  
+  /* ______________________________________________________ */
+  
+  
+  
+  
+  
+  
+  /* Navbar------------------------------------------------------- */
+  .navbar-custom a{
+      color: #ffffff !important;
+      font-size: 1rem;
+  }
+  
+  
+  
+  
+  .hover-underline-animation {
+      display: inline-block;
+      position: relative;
+      color: #ffffff;
+    }
+    
+    .hover-underline-animation:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      transform: scaleX(0);
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: #E62B1E;
+      
+      transform-origin: bottom right;
+      transition: transform 0.25s ease-out;
+    }
+    
+    .hover-underline-animation:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom left;
+    }
+  
+    .hover-underline-animation:hover{
+        color: #ffffff;
+    }
+  
+  
+  
+  
+  .navbar-custom button{
+      outline: #E62B1E;
+  }
+  
+  
+  .navbar-custom button:hover{
+      background-color: #E62B1E;
+  }
+  
+  
+  .nav-right-illustration{
+      position: absolute;
+      right: 0%;
+      top: -13.01%;
+  transform: rotate(1.99deg);
+  }
+  
+  
+  
+  
+  
+/* illustration01 */
+.illustration-left-homepage{
+  position: absolute;
+  left: 0%;
+  top: -20%;
+  opacity: 1;
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+
+
+
+/* Cards--------- */
+
+
+.card{
+  
+  background: linear-gradient(180deg, rgba(47, 46, 46, 0.44) 0%, rgba(50, 50, 50, 0.11) 100%);
+backdrop-filter: blur(13px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 23px;
+
+}
+
+.card-title{
+  font-weight: 700;
+}
+
+
+.card-text{
+  opacity: 0.6;
+  font-size: 0.8rem;
+}
+
+
+/* Icons */
+
+.bi-facebook:hover{
+  color:#4267B2 ;
+}
+
+.bi-twitter:hover{
+  color:#00acee;
+}
+
+.bi-youtube:hover{
+  color:	#FF0000;
+}
+
+.bi-instagram:hover{
+color: #f09433; 
+color: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+color: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+color: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
