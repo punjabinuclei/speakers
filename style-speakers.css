@@ -30,6 +30,13 @@
   
   
   /* Navbar------------------------------------------------------- */
+
+  .navbar {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    }
+
+
   .navbar-custom a{
       color: #ffffff !important;
       font-size: 1rem;
@@ -138,6 +145,7 @@ border-radius: 23px;
 
 .bi-facebook:hover{
   color:#4267B2 ;
+  transform: scale(1.5);
 }
 
 .bi-twitter:hover{
